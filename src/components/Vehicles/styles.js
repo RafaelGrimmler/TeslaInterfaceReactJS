@@ -6,13 +6,19 @@ export const Container = styled.div`
     scroll-snap-type: y mandatory;
     & div {
     scroll-snap-align: start;
-}
+    }
 `;
 
 const StartPage = keyframes`
     0%{top: 185px;}
-    80%{top: 185px}
-    100%{top: 165px}
+    80%{top: 185px;}
+    100%{top: 165px;}
+`;
+
+const StartPageSubTitle = keyframes`
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
 `;
 
 export const LayoutName = styled.div`
@@ -20,7 +26,7 @@ export const LayoutName = styled.div`
     top: 165px;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 1;
+    opacity: ${props=>props.opacity};
     text-align: center;
     animation: ${StartPage} 1.5s;
     
@@ -36,6 +42,7 @@ export const LayoutName = styled.div`
         color: #5C5D61;
         line-height: 19.8px;
         font-weight: 300;
+        animation: ${StartPageSubTitle} 2s;
     }
 
     & h2 a {
