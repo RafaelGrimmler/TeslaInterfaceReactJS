@@ -101,6 +101,16 @@ export const LayoutButtonsContainer = styled.div`
     height: 40px;
     display: flex;
     animation: ${StartPageSubTitle} 2s;
+
+    @media only screen and (max-width: 660px){
+        & {
+            bottom: 130px;
+            display: block;
+            left: 0;
+            right: 0;
+            transform: translate(0, 0);
+        }
+    }
 `;
 
 export const LayoutButtons = styled.div`
@@ -118,6 +128,15 @@ export const LayoutButtons = styled.div`
         text-decoration: none;
         padding: 12px 20px;
         color: ${props=>props.color};
+    }
+
+    @media only screen and (max-width: 660px){
+        & {
+            width: 70vw;
+            margin-bottom: 12px;
+            margin-right: 0;
+            margin-left: 0;
+        }
     }
 `;
 

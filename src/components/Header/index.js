@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Logo, LogoIcon, Cars, Menu } from './styles';
+import { Container, Logo, LogoIcon, Cars, Menu, ResponsiveMenu } from './styles';
 
 function Header() {
   return (
@@ -22,6 +22,9 @@ function Header() {
         <span>Account</span>
         <span>Menu</span>
       </Menu>
+      <ResponsiveMenu>
+        <span>Menu</span>
+      </ResponsiveMenu>
     </Container>
   );
 }

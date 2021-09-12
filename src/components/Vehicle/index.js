@@ -3,7 +3,9 @@ import { Container } from './styles';
 
 function Vehicles({ src }) {
   return (
-      <Container src={src}/>
+      <Container>
+        <img src={src} alt='backgroundVehicles' />
+      </Container>
   );
 }
 

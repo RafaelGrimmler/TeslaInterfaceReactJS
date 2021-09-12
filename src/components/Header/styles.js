@@ -46,6 +46,12 @@ export const Cars = styled.div`
     background-color: rgba(240, 240, 240, 0.3);
     transition: 0.6s;
   }
+
+  @media only screen and (max-width: 1200px){
+    & {
+      display: none;
+    }
+  }
 `;
 
 export const Menu = styled.div`
@@ -69,5 +75,36 @@ export const Menu = styled.div`
     border-radius: 40px;
     background-color: rgba(240, 240, 240, 0.3);
     transition: 0.6s;
+  }
+
+  @media only screen and (max-width: 1200px){
+    & {
+      display: none;
+    }
+  }
+`;
+
+export const ResponsiveMenu = styled.div`
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+
+  & span {
+    margin: 0 8px ;
+    line-height: 21px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #181B21;    
+    cursor: pointer;
+    padding: 4px 10px;
+    transition: 0.6s;
+  }
+
+  @media only screen and (max-width: 1200px){
+    & {
+      display: flex;
+    }
   }
 `;
