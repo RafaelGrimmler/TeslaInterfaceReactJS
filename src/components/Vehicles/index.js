@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ListVehicles from '../../ListVehicles.json';
+import Footer from '../Footer';
 import Vehicle from '../Vehicle'
 
 import { Container, LayoutName, LayoutButtonsContainer ,LayoutButtons, Arrow, ArrowIcon } from './styles';
@@ -10,6 +11,7 @@ function Vehicles() {
     const [opacity, setOpacity] = useState(1)
     const [arrowAnimationController, setArrowAnimationController] = useState(false)
     const [opacityArrow, setOpacityArrow] = useState(1)
+    const [footerOpacity, setFooterOpacity] = useState(0)
     const opacityPalette = [0.9,0.7,0.4,0.2,0,0,0.2,0.4,0.7,0.9]
 
     const scroll = e => {
@@ -22,6 +24,7 @@ function Vehicles() {
 
       if(Math.round(currentView) !== currentVehicle){
         setCurrentVehicle(Math.round(currentView))
+        Math.round(currentView) === 4 ? setFooterOpacity(1) : setFooterOpacity(0)
       }
 
       if(remainder === 0){
@@ -79,6 +82,7 @@ function Vehicles() {
               )
           }
         </div>
+        <Footer opacity={footerOpacity}/>
       </Container>
   );
 }

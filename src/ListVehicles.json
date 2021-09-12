@@ -6,17 +6,20 @@
 },
 {
     "name":"Model Y",
-    "text":"Order Online for Touchless Delivery",
+    "text":"Order Online for ",
+    "link":"Touchless Delivery",
     "src":"https://images8.alphacoders.com/998/998857.jpg"
 },
 {
-    "name":"Model 3",
-    "text":"Order Online for Touchless Delivery",
+    "name":"Model 3",    
+    "text":"Order Online for ",
+    "link":"Touchless Delivery",
     "src":"https://images.alphacoders.com/952/952148.jpg"
 },
 {
     "name":"Model X",
-    "text":"Order Online for Touchless Delivery",
+    "text":"Order Online for ",
+    "link":"Touchless Delivery",
     "src":"https://wallpapercave.com/wp/wp9204197.jpg"
 },
 {
