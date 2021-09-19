@@ -2,7 +2,7 @@
 
 ## Introdução
 
-<p> Este projeto foi feito em ReactJs com único fim de aprendizagem. A interface criada é ensipirada no site da <a href="https://www.tesla.com">Tesla</a>.</p>
+<p> Este projeto foi feito em ReactJs com único fim de aprendizagem. A interface criada é inspirada no site da <a href="https://www.tesla.com">Tesla</a>.</p>
 
 ## Interface Oficial
 <img src="https://i.imgur.com/c3GeK5x.png"/>
