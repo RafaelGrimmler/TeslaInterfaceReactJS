@@ -8,4 +8,4 @@
 <img src="https://i.imgur.com/c3GeK5x.png"/>
 
 ## Interface do Projeto
-<img src="https://i.imgur.com/0F61oGo.jpeg"/>
+<img src="https://i.imgur.com/4WzVqq5.jpeg"/>
